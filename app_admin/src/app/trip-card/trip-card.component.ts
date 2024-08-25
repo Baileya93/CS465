@@ -5,6 +5,8 @@ import { FormBuilder, FormGroup, Validators, ReactiveFormsModule }
 from "@angular/forms";
 import { TripDataService } from '../services/trip-data.service';
 import { Trip } from '../models/trip';
+import { AuthenticationService } from '../services/authentication.service';
+
 
 @Component({
   selector: 'app-trip-card',
@@ -19,9 +21,15 @@ export class EditTripComponent implements OnInit {
   submitted = false;
   message: string = '';
 
+  public isLoggedIn(): boolean {
+    return this.authenticationService.isLoggedIn();
+}
+
+
   constructor(
     private formBuilder: FormBuilder,
     private router: Router,
+    private authenticationService: AuthenticationService,
     private tripDataService: TripDataService
   ) {}
 
@@ -103,9 +111,12 @@ export class TripCardComponent implements OnInit {
 
   }
 
+  
   public editTrip(trip: Trip) {
     localStorage.removeItem('tripCode');
     localStorage.setItem('tripCode', trip.code);
     this.router.navigate(['edit-trip']);
   }
+  
+
 }
