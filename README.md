@@ -61,4 +61,4 @@ Backend Skills: Experience with Express and MongoDB for managing server-side log
 Full Stack Integration: Insights into connecting frontend and backend through RESTful APIs and JSON.
 These skills have made me a more versatile and marketable candidate, ready to tackle complex projects and contribute effectively to future development efforts.
 
-Feel free to tweak any details based on your specific experiences with the travlr pro
+
