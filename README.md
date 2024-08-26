@@ -7,7 +7,7 @@ This repository contains the travlr project, a full-stack web application design
 
 In the final iteration, additional security features were implemented to enhance the admin login authentication, ensuring that only authorized personnel can access the administrative functionalities. The project demonstrates a combination of frontend and backend technologies, with a focus on seamless integration and robust performance.
 
-**Architecture
+Architecture
 
 #Frontend Development
 
