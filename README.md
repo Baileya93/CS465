@@ -7,7 +7,7 @@ This repository contains the travlr project, a full-stack web application design
 
 In the final iteration, additional security features were implemented to enhance the admin login authentication, ensuring that only authorized personnel can access the administrative functionalities. The project demonstrates a combination of frontend and backend technologies, with a focus on seamless integration and robust performance.
 
-Architecture
+**Architecture
 
 #Frontend Development
 
@@ -31,12 +31,12 @@ The backend of travlr uses a NoSQL MongoDB database. This choice was made for se
   // Integration: MongoDB integrates seamlessly with JavaScript-based frameworks and tools, facilitating smooth data handling between the backend and frontend.
   
 **Functionality
-
-# JSON vs. JavaScript
+#JSON vs JavaScript
 
   //  JSON (JavaScript Object Notation): A format used for data interchange between the frontend and backend. It is easy to parse and generate, making it ideal for communicating travel data, user profiles, and other information.
   // JavaScript: Used for manipulating and managing data on the client side, including handling user interactions and updating the user interface dynamically.
   // Integration: JSON serves as a common language for data exchange, allowing the frontend Angular application and the backend Express server to communicate effectively and consistently.
+
 
 # Refactoring and Reusability
 In the travlr project, code refactoring was performed to enhance functionality and efficiency:
